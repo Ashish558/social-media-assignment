@@ -38,6 +38,7 @@ export default function LoginForm() {
                 setErrorMsg('')
                 setSuccessMsg(`Authenticated as ${username}`)
                 dispatch(updateIsAuthenticated(true))
+                window.location='/'
             }
         })
     }
