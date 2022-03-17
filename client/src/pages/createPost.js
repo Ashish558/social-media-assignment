@@ -58,7 +58,7 @@ export default function CreatePost() {
 
         updateImage(postId, formData, (err, res) => {
             if (err) return console.log(err)
-            // window.location = '/'
+            window.location = '/'
             setLoading(false)
             console.log(res)
         })
