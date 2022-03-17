@@ -15,11 +15,11 @@ export const containerStyle = {
     height: '100vh',
     overflowY: 'scroll',
     ['@media (max-width:970px)']: { // eslint-disable-line no-useless-computed-key
-        py: '81.1px',
+       py: '81.1px',
         pb: '50px'
     },
     ['@media (max-width:568px)']: { // eslint-disable-line no-useless-computed-key
-        px: '16px',
+        px: '8px',
         py: '73.1px',
         pb: '50px'
     },
@@ -30,6 +30,3 @@ export const containerStyle = {
         pb: '30px'
     }
 }
-
-
-// og values = 57.1 and 65.1
