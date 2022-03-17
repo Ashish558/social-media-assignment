@@ -48,7 +48,7 @@ const App = () => {
       setIsLoading(true)
       verifyAuth((err, res) => {
          if (!res) {
-            dispatch(updateIsAuthenticated(true))
+            dispatch(updateIsAuthenticated(false))
             setIsLoading(false)
             return
          }
