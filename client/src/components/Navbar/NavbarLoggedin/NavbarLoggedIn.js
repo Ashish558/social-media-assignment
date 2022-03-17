@@ -20,7 +20,7 @@ export default function Navbarloggedin() {
             <Toolbar sx={{ ...styles.wrapper }}>
 
                 <Typography variant='h5' sx={styles.logo} >
-                    Social
+                    Socizilla
                 </Typography>
 
                 {width > 970 ?
